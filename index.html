@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Proyecto</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="img/favicon-32x32.png" type="image/png" />
   </head>
   <body>
@@ -14,12 +14,12 @@
     </header>
 
     <nav>
-      <a href="#descripcion">Descripción</a>
-      <a href="#actividades">Actividades</a>
-      <a href="#inscripcion">Inscripción</a>
+      <a href="#introduccion">¿De qué se trata?</a>
+      <a href="#metodologia">¿Cómo trabajaremos?</a>
+      
     </nav>
 
-    <section class="section" id="descripcion">
+    <section class="section" id="introduccion">
       <div class="image-box">
         <div class="video-wrapper">
           <iframe
@@ -28,25 +28,30 @@
             allowfullscreen
           ></iframe>
         </div>
-        
       </div>
       <div class="text-box">
         <h2>¿De qué se trata?</h2>
         <p>
-          Hoy en día, la inteligencia artificial  está cambiando la forma en que vivimos, y llevarla al aula es una gran oportunidad para preparar a los estudiantes frente a los desafíos tecnológicos de este siglo. Con este proyecto, se busca que los chicos aprendan de forma activa, trabajando en equipo y aplicando lo que aprenden de una manera que les haga sentido.
+          Hoy en día, la inteligencia artificial está cambiando la forma en que vivimos, y llevarla al aula es una gran oportunidad para preparar a los estudiantes frente a los desafíos tecnológicos de este siglo. Con este proyecto, se busca que los chicos aprendan de forma activa, trabajando en equipo y aplicando lo que aprenden de una manera que les haga sentido.
           No solo van a adquirir habilidades técnicas, como programar o conectar dispositivos, sino que también van a reforzar contenidos de matemática y reflexionar sobre cómo usar la IA de forma ética y responsable.
         </p>
       </div>
     </section>
-        <section class="section" id="descripcion">
-  
+
+    <section class="section" id="metodologia">
       <div class="text-box">
-        <h2>¿Cómo Trabajaremos?</h2>
+        <h2>¿Cómo trabajaremos?</h2>
         <p>
           Durante este proyecto, los estudiantes conocieron qué es el Internet de las Cosas (IoT) a través de una presentación con ejemplos y una charla grupal, debatieron qué cosas podrían automatizarse en la escuela, observaron una demostración práctica con Arduino o simuladores, eligieron una idea para desarrollar en grupos, investigaron su funcionamiento, planificaron los pasos, aplicaron conocimientos de matemática, programaron y armaron un prototipo con sensores, utilizaron herramientas con inteligencia artificial para escribir código y documentar, realizaron pruebas y mejoras, presentaron su prototipo al resto del curso y reflexionaron sobre el impacto social y ético del uso del IoT y la tecnología.
         </p>
+        <button
+          class="boton-actividad"
+          onclick="window.open('img/TrabajoPrácticoN°1ModuloN°4.pdf', '_blank')"
+        >
+        TRABAJO MODULO 4(PDF)
+        </button>
       </div>
-          <div class="image-box">
+      <div class="image-box">
         <div class="video-wrapper">
           <iframe
             class="video-frame"
@@ -54,87 +59,85 @@
             allowfullscreen
           ></iframe>
         </div>
-        
       </div>
     </section>
 
-    <section class="section" id="actividades">
-      <div class="text-box">
-        <h2>Actividades del Proyecto</h2>
-        <button class="boton-actividad" onclick="location.href='actividad1.html'">
-          Simulación de circuitos lógicos digitales
-        </button>
-        <button class="boton-actividad" onclick="location.href='actividad2.html'">
-          Diseño conceptual de arquitectura Von Neumann
-        </button>
-        <button class="boton-actividad" onclick="location.href='actividad3.html'">
-          Configuración de red LAN simulada
-        </button>
-        <button class="boton-actividad" onclick="location.href='actividad4.html'">
-          Creación de un protocolo básico de seguridad para proteger los datos de la red
-        </button>
-        <button class="boton-actividad" onclick="location.href='actividad5.html'">
-          Análisis de legislación vigente aplicable
-        </button>
-        <button class="boton-actividad" onclick="window.open('img/TRABAJO FINAL ARDUINO TINKERCAD.pdf', '_blank')">
-          TRABAJO FINAL ARDUINO TINKERCAD (PDF)
-        </button>
-      </div>
-      <div class="image-box">
-        <img src="img/2.jpg" alt="Red de computadoras" />
+    <section class="cards-section">
+      <h2 class="cards-title">Secuencia de Actividades</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="img/card1.avif" alt="Proyecto 1" />
+          <h3>ACTIVIDAD N°1</h3>
+          <p>
+            Exploramos qué es el IoT mediante una presentación con imágenes y videos, analizamos ejemplos cotidianos y, en grupos, debatimos qué aspectos de la escuela podrían automatizarse para mejorar su funcionamiento.
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/card2.webp" alt="Proyecto 2" />
+          <h3>ACTIVIDAD N°2</h3>
+          <p>
+            Se explorará cómo funcionan sensores y actuadores mediante una demo con Arduino o simuladores, y se investigarán ejemplos de IoT con ayuda de IA. Como cierre, los estudiantes propondrán ideas para automatizar la escuela.
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/card3.jpg" alt="Proyecto 3" />
+          <h3>ACTIVIDAD N°3</h3>
+          <p>
+            Investigación y planificación (por grupos). Cada equipo elige una idea de automatización escolar. Investigan cómo podría funcionar y arman un plan de trabajo con los materiales y pasos necesarios.
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/card4.avif" alt="Proyecto 4" />
+          <h3>ACTIVIDAD N°4</h3>
+          <p>
+            Matemática en acción. Aplicamos funciones, proporcionalidad y gráficos para entender y calcular lo que el sensor tiene que hacer (por ejemplo: cuándo prender una luz o activar una alarma).
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/card5.jpg" alt="Proyecto 5" />
+          <h3>ACTIVIDAD N°5</h3>
+          <p>
+            Programamos y armamos el prototipo usando Arduino o simuladores como Tinkercad. Conectamos sensores, enviamos datos a una app o tablero digital y usamos herramientas con IA (como Copilot) para escribir el código, utilizando el lenguaje Python. También documentamos el proceso.
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/card6.jfif" alt="Proyecto 6" />
+          <h3>ACTIVIDAD N°6</h3>
+          <p>
+            Pruebas y mejoras: Se testea el prototipo para asegurar su correcto funcionamiento y, si es necesario, se ajusta el código o el montaje para optimizarlo.
+            <br />
+            Producto final: Un prototipo funcional con sensores y una guía técnica que documenta el proceso, el funcionamiento y las correcciones realizadas.
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/card7.avif" alt="Proyecto 7" />
+          <h3>ACTIVIDAD N°7</h3>
+          <p>
+            Presentación final en grupo. Cada equipo presenta su prototipo, explica cómo funciona, qué problema resuelve y cómo fue el proceso de creación.
+            Se puede usar IA para armar las presentaciones o preparar resúmenes de lo trabajado.
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/card8.jpg" alt="Proyecto 8" />
+          <h3>ACTIVIDAD N°8</h3>
+          <p>
+            Charla y reflexión ética. Conversamos sobre los aspectos éticos del uso del IoT y la inteligencia artificial: ¿Cómo afecta a las personas? ¿Qué responsabilidades tenemos al usar esta tecnología?
+            Pensamos juntos qué aprendimos y cómo podemos aplicar esto en el futuro.
+          </p>
+        </div>
       </div>
     </section>
-
-    <section class="form-section" id="inscripcion">
-      <div class="form-box">
-        <h2>Inscribite al Proyecto</h2>  
-        </p>
-        <form id="formulario">
-          <input
-            type="text"
-            name="nombre"
-            placeholder="Nombre y apellido"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Correo electrónico"
-            required
-          />
-          <input
-            type="text"
-            name="espacio"
-            placeholder="Espacio Curricular"
-            required
-          />
-          <textarea
-            name="comentarios"
-            rows="4"
-            placeholder="¿Qué podés aportar al proyecto?"
-          ></textarea>
-          <button type="submit">Enviar inscripción</button>
-        </form>
-      </div>
-      <div class="info-box">
-        <h2>Trabajemos juntos</h2>
-         <p>Te invitamos a ser parte de un proyecto que une ciencia, tecnología y reflexión crítica.
-          Completá el formulario y sumate a esta experiencia colaborativa e innovadora.
-        </p>
-      </div>
-    </section>
-
     <footer>
-      <p>&copy; 2025 Trabajo Práctico N°1-Modulo 4</p>
-    </footer>
-    <script>
-      document.getElementById("formulario").addEventListener("submit", function (event) {
-        event.preventDefault(); 
-        alert("¡Gracias por participar! Te contactaremos a la brevedad.");
-        this.reset(); 
-      });
-    </script>
-    
+      <p>&copy; 2025 Trabajo Práctico N°1 - Módulo 4</p>
+    </footer>  
   </body>
 </html>
 
+
+
+
+    
+
+    
+
+    
