@@ -390,3 +390,14 @@ footer {
   font-size: 0.9rem;
   color: #555;
 }
+@media (max-width: 1024px) {
+  .cards-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+}
